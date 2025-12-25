@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "4FAF55E6-6B19-43C3-A1B1-F65422536D62",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:LoanCalculator.xcodeproj",
+      "identifier" : "D76A651A2EFD9FD100B79865",
+      "name" : "LoanCalculator"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:LoanCalculator.xcodeproj",
+        "identifier" : "D76A65962EFDE82100B79865",
+        "name" : "LoanCalculatorTests"
+      }
+    }
+  ],
+  "version" : 1
+}
