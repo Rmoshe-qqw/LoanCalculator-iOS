@@ -1,17 +1,13 @@
-//
-//  LoanCalculatorApp.swift
-//  LoanCalculator
-//
-//  Created by Dev on 25.12.2025.
-//
-
 import SwiftUI
 
 @main
 struct LoanCalculatorApp: App {
+
+    private let graph = AppGraph()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoanScreen(store: graph.makeLoanStore())
         }
     }
 }

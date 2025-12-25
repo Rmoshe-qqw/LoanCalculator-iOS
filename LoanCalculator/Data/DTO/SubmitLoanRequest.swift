@@ -1,7 +1,5 @@
-//
-//  SubmitLoanRequestDto.swift
-//  LoanCalculator
-//
-//  Created by Dev on 25.12.2025.
-//
-
+struct SubmitLoanRequest: Encodable {
+    let amount: Int
+    let period: Int
+    let totalRepayment: Int
+}

@@ -1,15 +1,16 @@
 import XCTest
 @testable import LoanCalculator
 
+@MainActor
 final class LoanRulesTests: XCTestCase {
 
-    func test_currencySupported() {
+    func test_currencySupported() async {
         let rules = LoanRules(config: LoanConfig())
         XCTAssertTrue(rules.isCurrencySupported(.usd))
         XCTAssertTrue(rules.isCurrencySupported(.eur))
     }
 
-    func test_coerceAmount_clampsAndSnapsToStep() {
+    func test_coerceAmount_clampsAndSnapsToStep() async {
         let rules = LoanRules(config: LoanConfig())
 
         // below min -> clamp to min
@@ -25,7 +26,7 @@ final class LoanRulesTests: XCTestCase {
         XCTAssertEqual(rules.coerceAmount(5_500, currency: .usd), 5_500)
     }
 
-    func test_coercePeriod_picksNearestAllowed() {
+    func test_coercePeriod_picksNearestAllowed() async {
         let rules = LoanRules(config: LoanConfig()) // allowed 7,14,21,28
 
         XCTAssertEqual(rules.coercePeriod(6), 7)
@@ -35,7 +36,7 @@ final class LoanRulesTests: XCTestCase {
         XCTAssertEqual(rules.coercePeriod(27), 28)
     }
 
-    func test_validationHelpers() {
+    func test_validationHelpers() async {
         let rules = LoanRules(config: LoanConfig())
 
         XCTAssertTrue(rules.isAmountInRange(10_000, currency: .usd))
