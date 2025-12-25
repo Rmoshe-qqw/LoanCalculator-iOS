@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D7214C8B2EFDFE4700301940 /* README.me in Sources */ = {isa = PBXBuildFile; fileRef = D7214C8A2EFDFE4400301940 /* README.me */; };
+		D7214C8B2EFDFE4700301940 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D7214C8A2EFDFE4400301940 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,7 +22,7 @@
 
 /* Begin PBXFileReference section */
 		D7214C842EFDF91400301940 /* LoanCalculator.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = LoanCalculator.xctestplan; sourceTree = "<group>"; };
-		D7214C8A2EFDFE4400301940 /* README.me */ = {isa = PBXFileReference; explicitFileType = text; path = README.me; sourceTree = "<group>"; };
+		D7214C8A2EFDFE4400301940 /* README.md */ = {isa = PBXFileReference; explicitFileType = text; path = README.md; sourceTree = "<group>"; };
 		D76A651B2EFD9FD100B79865 /* LoanCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoanCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76A65972EFDE82100B79865 /* LoanCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoanCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -66,7 +66,7 @@
 		D76A65122EFD9FD100B79865 = {
 			isa = PBXGroup;
 			children = (
-				D7214C8A2EFDFE4400301940 /* README.me */,
+				D7214C8A2EFDFE4400301940 /* README.md */,
 				D7214C852EFDFD5700301940 /* screenshots */,
 				D7214C842EFDF91400301940 /* LoanCalculator.xctestplan */,
 				D76A651D2EFD9FD100B79865 /* LoanCalculator */,
@@ -195,7 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7214C8B2EFDFE4700301940 /* README.me in Sources */,
+				D7214C8B2EFDFE4700301940 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
