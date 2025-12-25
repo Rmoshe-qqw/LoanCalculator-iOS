@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D7214C8B2EFDFE4700301940 /* README.me in Sources */ = {isa = PBXBuildFile; fileRef = D7214C8A2EFDFE4400301940 /* README.me */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D76A659B2EFDE82100B79865 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -18,11 +22,17 @@
 
 /* Begin PBXFileReference section */
 		D7214C842EFDF91400301940 /* LoanCalculator.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = LoanCalculator.xctestplan; sourceTree = "<group>"; };
+		D7214C8A2EFDFE4400301940 /* README.me */ = {isa = PBXFileReference; explicitFileType = text; path = README.me; sourceTree = "<group>"; };
 		D76A651B2EFD9FD100B79865 /* LoanCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoanCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76A65972EFDE82100B79865 /* LoanCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoanCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		D7214C852EFDFD5700301940 /* screenshots */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 		D76A651D2EFD9FD100B79865 /* LoanCalculator */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LoanCalculator;
@@ -56,6 +66,8 @@
 		D76A65122EFD9FD100B79865 = {
 			isa = PBXGroup;
 			children = (
+				D7214C8A2EFDFE4400301940 /* README.me */,
+				D7214C852EFDFD5700301940 /* screenshots */,
 				D7214C842EFDF91400301940 /* LoanCalculator.xctestplan */,
 				D76A651D2EFD9FD100B79865 /* LoanCalculator */,
 				D76A65982EFDE82100B79865 /* LoanCalculatorTests */,
@@ -88,6 +100,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				D7214C852EFDFD5700301940 /* screenshots */,
 				D76A651D2EFD9FD100B79865 /* LoanCalculator */,
 			);
 			name = LoanCalculator;
@@ -182,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7214C8B2EFDFE4700301940 /* README.me in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
